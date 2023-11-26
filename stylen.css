@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+.navigation {
+    
+    display: flex;
+    background-color: black;
+    padding: 10px 10px;
+    gap: 30px;
+    justify-content: flex-end;
+    
+
+    
+ 
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.navigation a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 0 4px;
+    text-decoration: underline;
+}
+.banner-section img{
+    width: 100vw;
+    height: 93.5vh;
+    filter:blur(3px);
+    filter: brightness(0.4);
+    
+
+}
+.banner-section {
+    position: relative;
+
+}
+ .main-banner main-image {
+    position: relative;
+    
+ }
+ .content img{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+ }
+ .buttons {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+   padding: 10px;
+   border-radius: 8px;
+
+   
+    
+
+ }
+ .buttons :hover{
+    
+    cursor: pointer;
+    text-decoration: solid underline;
+
+ }
+ .statement {
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    color: white;
+    left: 250px;
+    font-size: large;
+ }
+ 
+ .input {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+ }
+ .input input {
+    width: 450px;
+    height: 50px;
+    
+ }
+ .input button {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+
+ }
+ .input button :hover {
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+    
+    
+ }
+ 
+ .second-block{
+    display: flex;
+    
+
+ }
+ .second-block .subText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+ }
+ .second-block .subImg {
+   background-color: black;
+ }
+ .qs {
+    
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+   margin: auto auto;
+   gap: 10px;
+   
+  
+
+ }
+.text {
+background-color: grey;
+color: #fff;
+
+}
+.text p {
+    display: none;
+    padding: 7px 7px;
+}
+ 
+.text:hover p{
+    display: block;
+}
+.text h2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 10px;
+}
+.text:hover .plus{
+    transform: rotate(45deg) ;
+}
+.main-footer{
+   display: flex;
+   flex-direction: row;
+}
+.f1{
+   height: 400px;
+   width: 25%;
+   background-color: black;
+   color: white;
+   gap: 10px;
+   
+   
+}
+.f1 a {
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   
+}
+.textlink {
+   display: flex ;
+   flex-direction: column;
+   gap: 20px;
+   float: right;
+   padding: 20% 10%;
+  
+}
+.f2{
+   height: 400px;
+   width: 25%;
+   background-color: black;
+   color: white;
+   gap: 10px;
+   
+   
+}
+.f2 a {
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   
+}
+.textlink2 {
+   display: flex ;
+   flex-direction: column;
+   gap: 20px;
+   float: right;
+   padding: 30% 10%;
+   float: left;
+}
+.f3{
+   height: 400px;
+   width: 25%;
+   background-color: black;
+   color: white;
+   gap: 10px;
+   
+   
+}
+.f3 a {
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   
+}
+.textlink3 {
+   display: flex ;
+   flex-direction: column;
+   gap: 20px;
+   float: right;
+   padding: 30% 10%;
+   float: left;
+}
+
+.f4{
+   height: 400px;
+   width: 25%;
+   background-color: black;
+   color: white;
+   gap: 10px;
+   
+   
+}
+.f4 a {
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   
+}
+.textlink4 {
+   display: flex ;
+   flex-direction: column;
+   gap: 20px;
+   float: right;
+   padding: 30% 10%;
+   float: left;
+}
+
+
+
+   
